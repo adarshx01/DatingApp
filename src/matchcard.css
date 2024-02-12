@@ -1,0 +1,56 @@
+.card5 {
+  width: 350px;
+  height: 430px;
+  background-image: linear-gradient(144deg,#ff7b10, #6b25f7 60%,#c42bfc);
+  border: none;
+  border-radius: 10px;
+  padding-top: 10px;
+  /* position: absolute; */
+  /* margin: 10px; */
+  margin-bottom: 20rem;
+  font-family: inherit;
+}
+
+.card5 span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 1.3em;
+}
+
+.card5 .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 1em;
+}
+
+.card5 .img {
+  width: 100px;
+  height: 100px;
+  background: #e8e8e8;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card5 button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #e8e8e8;
+  color: #111111;
+  font-weight: 600;
+}
+
+.card5 button:hover {
+  background: #212121;
+  color: #ffffff;
+}

@@ -1,0 +1,433 @@
+.card {
+    width: 17em;
+    height: 22.5em;
+    background: #171717;
+    transition: 1s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+  }
+  
+  .card .img {
+    width: 4.8em;
+    height: 4.8em;
+    background: white;
+    border-radius: 15px;
+    margin: auto;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: red;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: red;
+    color: white;
+    cursor: pointer;
+  }
+
+
+  .card2 {
+    width: 190px;
+    height: 254px;
+    background: #3405a3;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+   }
+   
+   .card2 .card2-border-top {
+    width: 60%;
+    height: 3%;
+    background: #6b64f3;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+   }
+   
+   .card2 span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+   }
+   
+   .card2 .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 12px;
+   }
+   
+   .card2 .img {
+    width: 70px;
+    height: 80px;
+    background: #6b64f3;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+   }
+   
+   .card2 button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #6b64f3;
+    color: white;
+    font-weight: 600;
+   }
+   
+   .card2 button:hover {
+    background: #534bf3;
+   }
+
+
+
+
+   .card3 {
+    max-width: 470px;
+    border-width: 1px;
+    border-color: rgba(219, 234, 254, 1);
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+    margin-bottom: 10rem;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+  
+  .icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    margin-top: 0.2rem;
+    background-color: rgba(96, 165, 250, 1);
+    padding: 0.5rem;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .icon svg {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .alert {
+    font-weight: 600;
+    color: rgba(107, 114, 128, 1);
+    margin-left: 2.5rem;
+  }
+  
+  .message {
+    margin-top: 1rem;
+    color: rgba(107, 114, 128, 1);
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+  }
+  
+  .actions a {
+    text-decoration: none;
+  }
+  
+  .mark-as-read, .read {
+    display: inline-block;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .read {
+    background-color: rgba(59, 130, 246, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .mark-as-read {
+    margin-top: 0.5rem;
+    background-color: rgba(249, 250, 251, 1);
+    color: rgba(107, 114, 128, 1);
+    transition: all .15s ease;
+  }
+  
+  .mark-as-read:hover {
+    background-color: rgb(230, 231, 233);
+  }
+
+
+
+  .coolinput {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    max-width: 240px;
+    margin-left: 1.3rem;
+  }
+  
+  .coolinput label.text {
+    font-size: 0.75rem;
+    color: #818CF8;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #e8e8e8;
+    width: fit-content;
+  }
+  
+  .coolinput input[type=text].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+  }
+  
+  .coolinput input[type=text].input:focus {
+    outline: none;
+  }
+
+
+  @media only screen and (max-width:700px){
+    
+
+   .card3 {
+    max-width: 23rem;
+    border-width: 1px;
+    border-color: rgba(219, 234, 254, 1);
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+    margin-bottom: 46rem;
+  }
+
+
+  .header {
+    /* display: gord; */
+    width: 10rem;
+    align-items: center;
+    grid-gap: 1rem;
+    gap: 1rem;
+  }
+  
+  .icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    margin-top: 0.2rem;
+    background-color: rgba(96, 165, 250, 1);
+    padding: 0.5rem;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .icon svg {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .alert {
+    font-weight: 600;
+    color: rgba(107, 114, 128, 1);
+    margin-left: 2.5rem;
+  }
+  
+  .message {
+    margin-top: 1rem;
+    color: rgba(107, 114, 128, 1);
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+  }
+  
+  .actions a {
+    text-decoration: none;
+  }
+  
+  .mark-as-read, .read {
+    display: inline-block;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .read {
+    background-color: rgba(59, 130, 246, 1);
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .mark-as-read {
+    margin-top: 0.5rem;
+    background-color: rgba(249, 250, 251, 1);
+    color: rgba(107, 114, 128, 1);
+    transition: all .15s ease;
+  }
+  
+  .mark-as-read:hover {
+    background-color: rgb(230, 231, 233);
+  }
+
+
+
+
+
+
+
+  
+  
+    .card {
+      width: 24em;
+      height: 34em;
+      background: #ffc5c5;
+      transition: 1s ease-in-out;
+      clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 37rem;
+    }
+    
+    .card span {
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      display: block;
+      font-size: 1em;
+    }
+    
+    .card .info {
+      font-weight: 400;
+      color: white;
+      display: block;
+      text-align: center;
+      font-size: 0.72em;
+      margin: 1em;
+    }
+    .card .img {
+      width: 4.8em;
+      height: 4.8em;
+      background: white;
+      border-radius: 15px;
+      margin: auto;
+    }
+    .coolinput input{
+      width: 24em;
+    }
+    .coolinputcheck{
+      margin-top: 1rem;
+      margin-left: 1.3rem;
+      font-size: 0.9rem;
+      width: 15em;
+      background-color: #d3c0ff;
+    }
+    .card .share {
+      margin-top: 1em;
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+    }
+    
+    .card a {
+      color: white;
+      transition: .4s ease-in-out;
+    }
+    
+    .card a:hover {
+      color: red;
+    }
+    
+    .card button {
+      padding: 0.8em 1.7em;
+      display: block;
+      margin: auto;
+      border-radius: 25px;
+      border: none;
+      font-weight: bold;
+      background: #ffffff;
+      color: rgb(0, 0, 0);
+      transition: .4s ease-in-out;
+    }
+    
+    .card button:hover {
+      background: red;
+      color: white;
+      cursor: pointer;
+    }
+  
+  
+    .card2 {
+      width: 190px;
+      height: 254px;
+      background: #3405a3;
+      border-radius: 15px;
+      box-shadow: 1px 5px 60px 0px #100a886b;
+     }
+  }
